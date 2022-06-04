@@ -135,6 +135,7 @@ func main() {
 		return nil
 	}
 
+	fmt.Println("Starting task...")
 	err := app.Run(os.Args)
 	if err != nil {
 		fmt.Fprintln(os.Stderr, err.Error())
